@@ -2,7 +2,7 @@
 int main()
 {
     int i;
-    for (i=10;i>=3;i=i-1)
+    for (i=40;i>=1;i=i-3)
     {
         printf("%d\n",i);
         /* code */
