@@ -2,9 +2,11 @@
 int main()
 {
     int i;
-    for (i=1;i<=3;i=i+1)
+    int n;
+    scanf("%d",&n);
+    for (i=1;i>=n;i=i+1)
     {
-        printf("%d\n",i);
+        printf(" I Love Practice\n",i);
         /* code */
     }
     
