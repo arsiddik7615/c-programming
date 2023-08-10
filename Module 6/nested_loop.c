@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    for (int j = 1; j <= 3; j++)
+    {
+        for (int i = 1; i <= 5; i++)
+    {
+        printf("%d ",i);
+        /* code */
+    }
+    printf("\n");
+        /* code */
+    }
+    
+    
+    
+    return 0;
+}

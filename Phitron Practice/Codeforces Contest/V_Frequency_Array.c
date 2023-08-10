@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int n,m;
+    scanf("%d %d",&n,&m);
+    int a[n];
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d",&a[i]);
+        /* code */
+    }
+    int cnt[m];
+    for (int i = 0; i < n; i++)
+    {
+         
+         cnt[a[i]]++;                 
+       
+       
+    }
+    // printf("0 - %d\n",cnt[0]);
+    // printf("1 - %d\n",cnt[1]);
+    // printf("2 - %d\n",cnt[2]);
+    // printf("3 - %d\n",cnt[3]);
+    // printf("4 - %d\n",cnt[4]);
+    for (int i = 0; i <=6; i++)
+    {
+        printf("%d - %d\n",cnt[i]);
+        /* code */
+    }
+    
+    return 0;
+}
